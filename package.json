@@ -4,6 +4,8 @@
   "description": "E-Commerce application REST API using your knowledge of server-side web development",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -35,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/LordMata/e-commerce-app/issues"
   },
-  "homepage": "https://github.com/LordMata/e-commerce-app#readme"
+  "homepage": "https://github.com/LordMata/e-commerce-app#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
